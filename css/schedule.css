@@ -93,3 +93,6 @@ header {
     text-decoration: none;
     cursor: pointer;
 }
+textarea{
+    width: 97%;
+}
