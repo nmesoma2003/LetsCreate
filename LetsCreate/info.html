@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Tooplate's LetsCreate - Sign Up Page</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-icons.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/info.css" />
+
+    <link href="css/tooplate-little-fashion.css" rel="stylesheet" />
+
+    <!--
+
+Tooplate 2127 LetsCreate
+
+
+
+https://www.tooplate.com/view/2127-little-fashion
+
+-->
+  </head>
+
+  <body>
+   
+    <main>
+      <section>
+        <h2>Tell us About Yourself</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <h2>Target Platforms</h2>
+          <div class="platforms">
+          <label for="youtube">YouTube:</label>
+          <input type="checkbox" id="youtube" name="platforms[]" />
+
+          <label for="tiktok">TikTok:</label>
+          <input type="checkbox" id="tiktok" name="platforms[]" />
+
+          <label for="instagram">Instagram:</label>
+          <input type="checkbox" id="instagram" name="platforms[]" />
+
+          <label for="facebook">Facebook:</label>
+          <input type="checkbox" id="facebook" name="platforms[]" />
+
+          <label for="twitter">Twitter:</label>
+          <input type="checkbox" id="twitter" name="platforms[]" />
+        </div>
+          <h2>Niche</h2>
+          <label for="niche">Select your niche:</label>
+          <select id="niche" name="niche" required>
+            <option value="">Select one</option>
+            <option value="beauty">Beauty</option>
+            <option value="gaming">Gaming</option>
+            <option value="lifestyle">Lifestyle</option>
+            <option value="food">Food</option>
+            <option value="travel">Travel</option>
+            <option value="other">Other (please specify)</option>
+          </select>
+
+          <label for="other-niche">If other, please specify:</label>
+          <input type="text" id="other-niche" name="other-niche" />
+
+          <h2>Social Media Handles</h2>
+          <label for="handles">Provide your Social Media Handles:</label>
+          <select id="handles" name="handles" required>
+            <option value="">You can select up to two</option>
+            <option value="beauty">Youtube</option>
+            <option value="gaming">Instagram</option>
+            <option value="lifestyle">Facebook</option>
+            <option value="food">Twitter</option>
+            </select>
+          <label for="facebook-handle">Handle 1:</label>
+          <input type="text" id="facebook-handle" name="facebook-handle" />
+
+          <label for="twitter-handle">Handle 2:</label>
+          <input type="text" id="twitter-handle" name="twitter-handle" />
+
+          <button type="submit" ><a href="profile.html">Submit</a></button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
